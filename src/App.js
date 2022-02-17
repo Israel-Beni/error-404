@@ -16,8 +16,11 @@ class App extends React.Component {
               The page you are looking for might be removed or is temporarily unavailable
             </p>
             <button>BACK TO HOMEPAGE</button>
-        </div>
           </div>
+        </div>
+        <p className="credit">
+          Created bt <span>IsraelBeni</span>.
+        </p>
       </div>
     );
   }
