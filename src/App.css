@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .page-container {
   width: 100%;
@@ -19,20 +20,51 @@
 
 .page-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 4.27777rem;
   height: calc(100vh - 3.611rem);
+  font-family: 'Space Mono', monospace;
 }
 
 .image-container {
   flex: 0 0 29.957rem;
-  justify-content: center;
-  align-items: center;
+  height: 23.014rem;
+  position: relative;
+  top: 11.111rem;
+  margin: 6.599rem;
 }
 
 .image-container img {
   object-fit: contain;
   width: 29.957rem;
   height: 23.014rem;
+}
+
+.page-details {
+  position: relative;
+  top: 11.11rem;
+  flex: 0 0 32.556rem;
+  height: fit-content;
+}
+
+.page-details .page-title {
+  font-size: 3.556rem;
+  line-height: 5.2778rem;
+  letter-spacing: -.035em;
+  /*height: 6.611rem;*/
+  margin-bottom: 2rem;
+}
+
+.page-details .page-description {
+  width: 21.667rem;
+  font-size: 1.333rem;
+  margin-bottom: 3.556rem;
+}
+
+.page-details button {
+  width: 12rem;
+  height: 3.778rem;
+  font-size: .778rem;
+  color: white;
+  background-color: black;
+
 }
