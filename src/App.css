@@ -43,7 +43,9 @@
 .page-details {
   /*position: relative;
   top: 11.11rem;*/
-  flex: 0 0 32.556rem;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 32.556rem;
   height: fit-content;
 }
 
@@ -59,6 +61,7 @@
   width: 21.667rem;
   font-size: 1.333rem;
   margin-bottom: 3.556rem;
+  line-height: 2rem;
 }
 
 .page-details button {
@@ -67,4 +70,46 @@
   font-size: .778rem;
   color: white;
   background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  .page-container h3 {
+    padding-top: 1.111rem;
+    margin-left: 1.333rem;
+  }
+
+  .page-content {
+    flex-direction: column;
+    padding-top: 3.556rem;
+    height: calc(100vh - 2.5rem);
+  }
+
+  .image-container {
+    flex: 1 1 15.935rem;
+    display: flex;
+    height: 12.243rem;
+    margin: auto;
+  }
+
+  .image-container img {
+    flex: 1 1;
+    width: 15.935rem;
+    height: 12.243rem;
+    margin-bottom: 4.314rem;
+  }
+
+  .page-details .page-title {
+    font-size: 2.667rem;
+    line-height: 3.944rem;
+  }
+
+  .page-details .page-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 3.667
+  }
 }
