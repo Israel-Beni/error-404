@@ -30,7 +30,7 @@
   height: 23.014rem;
   position: relative;
   top: 11.111rem;
-  margin: 6.599rem;
+  margin-right: 6.599rem;
 }
 
 .image-container img {
@@ -66,5 +66,4 @@
   font-size: .778rem;
   color: white;
   background-color: black;
-
 }
