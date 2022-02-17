@@ -6,13 +6,33 @@
 }
 
 .page-container h3 {
-  width: 7.3888rem;
+  font-family: 'Inconsolata', monospace;
+  width: fit-content;
   height: 1.388rem;
   margin-left: 4.2777rem;
-  margin-top: 2.22rem;
+  padding-top: 2.22rem;
   text-align: center;
   font-size: 1.333rem;
   font-weight: 700;
   color: #333;
-  font-family: 'Inconsolata', monospace;
+}
+
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.27777rem;
+  height: calc(100vh - 3.611rem);
+}
+
+.image-container {
+  flex: 0 0 29.957rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  object-fit: contain;
+  width: 29.957rem;
+  height: 23.014rem;
 }

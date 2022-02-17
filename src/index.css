@@ -7,13 +7,13 @@ body, html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
+  margin-block-start: 0;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-block-start: 0;
 }
 
 code {
