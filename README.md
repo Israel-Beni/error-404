@@ -29,6 +29,7 @@ Here is how my custom 404 error page looks like:
 ![Desktop](./src/error-404_desktop.PNG "Desktop demo")
 
 * On Mobile
+
 ![Mobile](./src/error-404_mobile.PNG "Mobile demo")
 
 ## Setup
