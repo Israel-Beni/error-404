@@ -23,6 +23,7 @@ For the development of the app, I used:
 
 ## Demo
 
+Click [here](https://israel-beni.github.io/error-404/) to see the live demo.
 Here is how my custom 404 error page looks like:
 
 * On Desktop
